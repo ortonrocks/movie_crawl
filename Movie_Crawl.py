@@ -513,21 +513,21 @@ if __name__ == "__main__" :
     dcard_crawler()
     
     # 雲端MySQL連線參數 #
-    config = {
-        'host': '35.229.212.128',
-        'port': 3306,
-        'user': 'ortonrocks',
-        'passwd': 'jimmy19971027',
-        'db': 'try',
-        'charset': 'utf8mb4',
-        'local_infile': 1
-    }
-    
+    # config = {
+    #     'host': '',
+    #     'port': 3306,
+    #     'user': '',
+    #     'passwd': '',
+    #     'db': 'try',
+    #     'charset': 'utf8mb4',
+    #     'local_infile': 1
+    # }
+    #
     # 更新資料庫電影表內容 #
-    print("[INFO] MySQL Tables Updating...")
-    update_movie_table('on_movie')
-    update_movie_table('coming_movie')
-    update_movie_table('movie_hot')
+    # print("[INFO] MySQL Tables Updating...")
+    # update_movie_table('on_movie')
+    # update_movie_table('coming_movie')
+    # update_movie_table('movie_hot')
 
     print("[INFO] Finished")
     
